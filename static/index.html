@@ -286,6 +286,7 @@
         //XXX: TODO Get the world from the webservice using a XMLHTTPRequest - DONE
         sendJSONXMLHTTPRequest("/world", {}, (json) => (world = json));
         drawFrame();
+        drawNextFrame()
       }
 
       function randColor() {
